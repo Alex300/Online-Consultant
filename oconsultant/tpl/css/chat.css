@@ -1,0 +1,185 @@
+/**
+ * Online Consultant Module for Cotonti
+ * @package Online Consultant
+ * @author Alex
+ * @copyright  © 2011-2013 Portal30 Studio http://portal30.ru
+ */
+
+body{
+    margin: 0;
+}
+
+.grey{color: #787878;}
+.small{font-size: 90%}
+
+html, body, .container-fluid {
+    height: 100%;
+}
+
+#oc_header{
+    /*background: #cccccc;*/
+    height: 80px;
+    margin-top: 5px;
+}
+#interlocutor-avatar{
+    float: left;
+    width: 20%;
+    height: 95px;
+}
+#interlocutor-avatar img{
+    max-height: 100%;
+}
+#main-title a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#header-right{
+    float: right;
+    width: 80%;
+}
+#header-right > div{margin-left: 10px}
+.block{
+    background: #F3F3F3;
+    border-radius: 6px;
+    padding: 9px;
+}
+#panel{
+    margin-top: 5px;
+    float: right;
+}
+#panel .input-append{margin: 0}
+#status{
+    height: 15px;
+    text-align: right;
+    line-height: 10px;
+}
+div#typingdiv, div#engineinfo {
+    border: 0px solid gray;
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    padding: 0 10px;
+    background: #fafafa;
+    color: #B11E23;
+    line-height: 10px;
+    height: 13px;
+}
+#chat-history{
+    /*min-height:100%;*/
+    /*height:auto!important;*/
+    /*height:100%;*/
+
+    /*Высота нижней части окна */
+    /*margin:0 0 -290px 0;*/
+}
+#chat-history table, #chat-history table tr, #chat-history table td{
+    /*min-height: 100%;*/
+    /*height:auto !important;*/
+    /*height:100%;*/
+}
+#chat-history table td.chat-cont{
+    /*height: 185px;*/
+}
+.chat-cont{
+    /*width: 96%;*/
+    border: 1px solid #77A2B5;
+}
+textarea.message {
+    width:98%;
+    min-height: 100%;
+    /*min-height: 78px;*/
+    height: 99%;
+    border: 0px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: auto;
+    /*margin:3px 5px 3px 3px;*/
+    margin: 0;
+}
+table td{vertical-align: top}
+
+#avatarwnd{
+    max-width: 20px;
+    max-height: 78px;
+}
+#avatarwnd div{
+    max-width: 76px;
+    max-height: 78px;
+}
+#avatarwnd img{
+    /*max-width: 70px;*/
+    max-height: 78px;
+}
+
+#footer{margin: 10px 0}
+
+/** Message styles */
+.message {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #4F4F4F;
+    padding: 3px;
+    line-height: 17px;
+}
+.message span.time {
+    color: #000000;
+}
+
+.message span.nuser {
+    color: #B11E23;
+    font-weight: bold;
+}
+
+.message span.nagent {
+    font-weight: bold;
+}
+
+.message span.minf {
+    color: #1E48B1;
+    font-size: 11px;
+}
+
+.message span.mevent {
+    color: #A1A1A1;
+    font-size: 11px;
+}
+
+.message span.mhidden {
+    color: #A1A1A1;
+    font-size: 11px;
+}
+
+.message span.mconn {
+    color: #A1A1A1;
+    font-size: 11px;
+}
+/** /Message styles */
+
+/** === Dialog === **/
+#dlg_header{margin-top: 5px;}
+
+h1{
+    font-size: 25px;
+    line-height: normal;
+}
+form, input, input[type="text"] {
+    margin: 0;
+}
+/** === /Dialog === **/
+
+/** Typography **/
+.margintop10	{ margin-top:10px; }
+.marginright10	{ margin-right:10px; }
+.marginbottom10	{ margin-bottom:10px; }
+.marginleft10	{ margin-left:10px; }
+.margin10		{ margin:10px!important; }
+.margin0		{ margin:0!important; }
+
+.paddingtop10	{ padding-top:10px; }
+.paddingright10	{ padding-right:10px; }
+.paddingbottom10{ padding-bottom:10px; }
+.paddingleft10	{ padding-left:10px; }
+.padding10		{ padding:10px!important; }
+.padding0		{ padding:0!important; }
+
+.border0		{ border:0!important; }
+/** /Typography **/

@@ -1,0 +1,24 @@
+/*
+// *********************************************
+// *    Online Consultant Module               *
+// *            for Cotonti                    *
+// *    Portal30 Studio                        *
+// *        http://portal30.ru                 *
+// *                                           *
+// *                © Portal30 Studio  2011    *
+// *********************************************
+*/
+.who_uri{
+    height: 20px;
+    /*width: 400px; */
+    overflow: hidden
+}
+.who_otitle{
+    /*height: 20px;*/
+    width: 200px;
+    /*overflow: hidden*/
+}
+.who_bborder{border-bottom: #CCC 2px solid;}
+.who_rejected{background-color:#DC5757; color: #000}
+.who_sended{background-color:#1E48B1; color:#EDD400}
+.who_accepted{background-color:#00cc00; color: #000}
